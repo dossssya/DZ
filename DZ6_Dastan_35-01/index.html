@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="todo">
+            <input type="text" id="input" placeholder="To Do...">
+            <button id="create_button">Create ToDo</button>
+        </div>
+
+        <div id="todo_list">
+
+        </div>
+        <div class="edit">
+            <input type="text" id="edit_input" placeholder="Enter changes">
+            <button onclick id="edit_but">Ok</button>
+            <button onclick id="but_edit">Отмена</button>
+        </div>
+        <div class="delete">
+            <div class="buttons">
+                <div class="left_button">
+                    <button onclick id="delete_but">Ok</button>
+                </div>
+                <div class="right_button">
+                    <button onclick id="but_delete">Отмена</button>
+                </div>
+            </div>
+            <div class="p">
+                <h5>Подтвердить удаление</h5>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

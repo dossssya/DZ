@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: silver;
+    padding: 20px;
+}
+
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 750px;
+    margin: 0 auto;
+}
+
+input {
+    border: 2px solid #9e71d5;
+    font-size: 20px;
+    height: 40px;
+    width: 500px;
+    padding-left: 5px;
+    border-radius: 6px;
+
+}
+
+#create_button {
+    width: 240px;
+    height: 40px;
+    border: 2px solid #783da1;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.1);
+    font-size: 22px;
+    border-radius: 6px;
+}
+
+#todo_list {
+    margin: 0 auto;
+    width: 750px;
+}
+
+.block_text {
+    width: 100%;
+    border: 2px solid #9e71d5;
+    padding: 8px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h3{
+    font-size: 30px;
+
+}
+.div_button {
+    display: flex;
+    width: 320px;
+    height: 100%;
+    justify-content: space-between;
+}
+.delete_button {
+    width: 150px;
+    height: 40px;
+    background-color: darkred;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.edit_button {
+    width: 150px;
+    height: 40px;
+    background-color: #67b262;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.toggle {
+    text-decoration: line-through;
+    color: darkred;
+}
+
+#edit_input {
+    margin: 30px 0 0 343px;
+}
+
+.delete {
+    margin: -80px 0 0 245px;
+}
+
+.edit {
+    display: none;
+}
+
+.buttons {
+    margin-top: 150px;
+    display: flex;
+    gap: 16px;
+    margin-left: 45px;
+
+}
+h5 {
+    font-family: sans-serif, Arial;
+    font-size: 20px;
+    margin-left: -90px;
+    margin-top: 100px;
+}
+#delete_but {
+    background-color: red;
+
+}
