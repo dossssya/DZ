@@ -1,10 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-$END$
+<div class="wrapper">
+    <div class="table">
+        <div class="table-row-header">
+            <div class="table-cell">Title</div>
+            <div class="table-cell">Year</div>
+            <div class="table-cell">Rating</div>
+            <div class="table-cell">Director</div>
+        </div>
+        <div class="table-row">
+            <div class="table-cell">Час Пик</div>
+            <div class="table-cell">1998</div>
+            <div class="table-cell">7.7</div>
+            <div class="table-cell">Бретт Ратнер</div>
+            <div class="table-cell action">
+                <button onclick="buyTicket(this)">Купить</button>
+            </div>
+        </div>
+        <div class="table-row">
+            <div class="table-cell">Одноклассники</div>
+            <div class="table-cell">2010</div>
+            <div class="table-cell">6.8</div>
+            <div class="table-cell">Деннис Дуган</div>
+            <div class="table-cell action">
+                <button onclick="buyTicket(this)">Купить</button>
+            </div>
+        </div>
+        <div class="table-row">
+            <div class="table-cell">Кингсман</div>
+            <div class="table-cell">2014</div>
+            <div class="table-cell">7.7</div>
+            <div class="table-cell">Мэттью Вон</div>
+            <div class="table-cell action">
+                <button onclick="buyTicket(this)">Купить</button>
+            </div>
+        </div>
+    </div>
+    <div id="confirmationModal" class="modal">
+        <p id="confirmationText">Подтверждение</p>
+        <button class="green" onclick="confirmPurchase()">OK</button>
+        <button class="white" onclick="cancelPurchase()">Отмена</button>
+    </div>
+</div>
 </body>
+<script src="app.js"></script>
 </html>
+
